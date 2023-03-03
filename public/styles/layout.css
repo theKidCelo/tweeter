@@ -3,7 +3,7 @@
  * https://css-tricks.com/international-box-sizing-awareness-day/
  * Do not modify these two selectors, please
  */
-html {
+ html {
   box-sizing: border-box;
 }
 *, *:before, *:after {
@@ -20,12 +20,48 @@ body {
   font-size: 24px;
 }
 
+html {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
 
  main {
   background-color: #f4f1ec;
-  margin: auto;
   width: 90%;
+  margin: auto;
  }
+ 
+ /* For desktops and large screens */
+@media only screen and (min-width: 1024px) {
+  nav {
+    background-color: red;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+  }
+  
+  body > header {
+    width: 520px;
+    margin: 300px 5%;
+    padding: 5%;
+  }
+  
+  /* container for new tweet form and tweets */
+  .container {
+    width: 60%;
+    margin-top: 120px;
+  }
+}
+  
+/* Stop stretching body for ultrawide monitors */
+@media only screen and (min-width: 1335px) {
+  body {
+    width: 1335px;
+    margin: auto;
+  }
+}

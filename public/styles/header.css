@@ -9,3 +9,6 @@ header {
     padding-top: 120px;
   }
   
+  header h2{
+    margin-top: 0;
+  }

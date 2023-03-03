@@ -10,3 +10,20 @@ nav {
     top: 0;
   }
   
+  nav span {
+    font-family: 'Bungee', cursive;
+  }
+  
+  nav div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  nav p {
+    margin: 0;
+  }
+  
+  nav .fas {
+    color: orangered;
+  }
