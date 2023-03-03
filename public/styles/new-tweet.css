@@ -1,0 +1,57 @@
+.new-tweet {
+    width: 90%;
+    margin: auto;
+  }
+  
+  .new-tweet h2 {
+    font-size: 1em;
+    margin-top: 40px;
+  }
+  
+  label[for="tweet-text"] {
+    /* Hidden for aesthetics, but still detectable by screen readers */
+    visibility: hidden;
+  }
+  
+  /* error message styling */
+  .new-tweet p {
+    width: 100%;
+    border: 4px solid red;
+    text-align: center;
+    color: red;
+    padding: 1em;
+    display: none;
+  }
+  
+  .new-tweet textarea {
+    width: 100%;
+    border: none;
+    border-bottom: 4px solid #6d4c3d;
+    padding-bottom: 0;
+    background-color: #f4f1ec;
+    margin-bottom: 0.5em;
+    outline: none;
+    resize: none;
+  }
+  
+  .new-tweet button {
+    font-family: "Bungee", cursive;
+    color: #ffffff;
+    background-color: #4056a1;
+  }
+  
+  .counter {
+    font-family: "Bungee", cursive;
+    color: #6d4c3d;
+  }
+  
+  .submit-count {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5em;
+  }
+  
+  .red {
+    color: red;
+  }
+  
