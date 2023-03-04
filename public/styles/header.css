@@ -1,14 +1,15 @@
 header {
-    height: 520px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #ffcf99;
-    background-image: url(../images/asfalt-light.png);
-    padding-top: 120px;
-  }
+  padding-top: 120px;
+  height: 520px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffcf99;
+  background-image: url(../images/asfalt-light.png);
   
-  header h2{
-    margin-top: 0;
-  }
+}
+
+header h2 {
+  margin-top: 0;
+}

@@ -15,9 +15,9 @@
  */
 
 body {
-  color: #545149;
-  background-color: #f4f1ec;
   font-size: 24px;
+  background-color: #dfdcd7;
+  color: #545149;
 }
 
 html {
@@ -29,9 +29,9 @@ html {
  */
 
  main {
-  background-color: #f4f1ec;
-  width: 90%;
+  background-color: #dfdcd7;
   margin: auto;
+  width: 90%;
  }
  
  /* For desktops and large screens */
@@ -50,15 +50,13 @@ html {
     margin: 300px 5%;
     padding: 5%;
   }
-  
-  /* container for new tweet form and tweets */
+
   .container {
     width: 60%;
     margin-top: 120px;
   }
 }
   
-/* Stop stretching body for ultrawide monitors */
 @media only screen and (min-width: 1335px) {
   body {
     width: 1335px;

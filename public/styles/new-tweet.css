@@ -24,19 +24,19 @@
   }
   
   .new-tweet textarea {
-    width: 100%;
     border: none;
-    border-bottom: 4px solid #6d4c3d;
-    padding-bottom: 0;
-    background-color: #f4f1ec;
+    border-bottom: 4px solid #58392a;
     margin-bottom: 0.5em;
+    padding-bottom: 0;
+    width: 100%;
+    background-color: #dbd9d6;
     outline: none;
     resize: none;
   }
   
   .new-tweet button {
     font-family: "Bungee", cursive;
-    color: #ffffff;
+    color: #dbd9d6;
     background-color: #4056a1;
   }
   
